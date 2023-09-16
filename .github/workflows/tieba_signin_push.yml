@@ -6,8 +6,8 @@ on:
    push:
    gollum:
    schedule:
-   # 每天国际时间 17:00 运行一次, 中国时间 1:30
-    - cron: '30 17 * * *'
+   # 每天国际时间 17:28 运行一次, 中国时间 1:28
+    - cron: '28 17 * * *'
 
 jobs:
   TiebaSignIn:
